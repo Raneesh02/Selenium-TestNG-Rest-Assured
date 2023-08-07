@@ -1,0 +1,12 @@
+{
+  "data": [
+    {
+    "type": "movie",
+    "nameToSearch": "Zindagi Na Milegi Dobara"
+  },
+    {
+    "type": "movie",
+    "nameToSearch": "lord of the rings"
+  }
+  ]
+}

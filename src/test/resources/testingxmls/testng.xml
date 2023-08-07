@@ -1,0 +1,12 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="imdbTests" >
+    <test name="api_ui_compare">
+        <classes>
+            <class name="org.imdb.tests.api_ui_compare.moviesearch.MovieSearchApiWebTests">
+                <methods>
+                    <include name="testMovieSearchApi_UI" />
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>

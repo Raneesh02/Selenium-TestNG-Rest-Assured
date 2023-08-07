@@ -1,0 +1,23 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="imdbTests" parallel="tests" thread-count="2">
+    <test name="api_ui_compare">
+        <classes>
+            <class name="org.imdb.tests.api_ui_compare.moviesearch.MovieSearchApiWebTests">
+                <methods>
+                    <include name="testHomePageList" />
+
+                </methods>
+            </class>
+        </classes>
+    </test>
+
+    <test name="ui only tests">
+        <classes>
+            <class name="org.imdb.tests.ui.HomePageTests">
+                <methods>
+                <include name="testHomePageLogo" />
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>
